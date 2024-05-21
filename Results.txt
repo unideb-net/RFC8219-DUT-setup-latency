@@ -1,0 +1,24 @@
+Network   DUT2  DUT3 DUT2_DUT3 Single_DUT_Sum Condition_1_2_4 Condition_8_256 Difference
+    <dbl>  <dbl> <dbl>     <dbl>          <dbl> <lgl>           <lgl>                <dbl>
+1       1 0.0757 0.103     0.190          0.178 TRUE            FALSE              0.0113 
+2       2 0.0903 0.119     0.208          0.209 TRUE            FALSE             -0.00139
+3       4 0.0877 0.121     0.256          0.209 TRUE            FALSE              0.0474 
+4       8 0.104  0.123     0.292          0.227 FALSE           TRUE               0.0647 
+5      16 0.105  0.124     0.299          0.229 FALSE           TRUE               0.0703 
+6      32 0.127  0.138     0.339          0.265 FALSE           TRUE               0.0745 
+7      64 0.168  0.209     0.505          0.378 FALSE           TRUE               0.128  
+8     128 0.322  0.409     1.03           0.731 FALSE           TRUE               0.295  
+9     256 0.608  0.667     3.64           1.27  FALSE           TRUE               2.36   
+
+
+
+Paired T-test
+
+data:  results$DUT2_DUT3 and results$Single_DUT_Sum
+t = 1.3323, df = 8, p-value = 0.2195
+alternative hypothesis: true mean difference is not equal to 0
+95 percent confidence interval:
+ -0.2477724  0.9258202
+sample estimates:
+mean difference 
+      0.3390239 
