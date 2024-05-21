@@ -11,3 +11,5 @@ The following R code performs a Paired T-test based statistical analysis for our
 6. **Line plot:** produce a line plot of the original data.
 7. **T-Test Diagram:** Visualize the results of the t-test, plotting the mean of the differences and the 95% confidence intervals.
 8. **Plot Results:** Plot results and differences and export to a CSV file.
+
+**Note:** Part of the R script was generated with ChatGPT-4o.
