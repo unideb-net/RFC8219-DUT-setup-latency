@@ -1,4 +1,4 @@
-# Single DUT and dial DUT setup comparison based on RFC 8219
+# Single DUT and dual DUT setup comparison based on RFC 8219
 ## What is this?
 
 The following R code performs a Paired T-test based statistical analysis for our single DUT and dual DUT latency measurements as follows:
